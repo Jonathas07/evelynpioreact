@@ -1,0 +1,67 @@
+.center, .centerInativo{
+    display: none;
+}
+
+@media(max-width: 900px) {
+    
+    
+    .center{
+        background-image: linear-gradient(40deg,  rgb(37, 37, 37), #bc6561, rgb(37,37,37), #bc6561, rgb(37,37,37));
+        background-size: cover;
+        background-position-x: 50%;
+        width: 70%;
+        height: 100%;
+        border-end-end-radius: 25px;
+        border-start-end-radius: 25px;
+        box-shadow: 5px 0px rgba(29, 12, 12, 0.8);
+        position: absolute;
+        z-index: 0;
+        left: 0;
+        display: block;
+        animation: center 2.5s;
+    }
+
+    @keyframes center{
+        from { width: 0 }
+      to { width: 70% }
+    }
+
+
+    .centerInativo{
+        display: none;
+    }
+    
+    .btexit{
+        background-color: transparent;
+        border: transparent;
+        border-radius: 25%;
+        scale: 2;
+        position: absolute;
+        right: 10%;
+        top: 10%;
+        cursor: pointer;
+    }
+
+    .lista{
+        height: 80%;
+        width: 80%;
+        display: grid;
+        row-gap: 20%;
+        align-content: space-evenly;
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        animation: center1 2.5s;
+    }
+
+    @keyframes center1{
+        from { left: -100px }
+        to { left: 10% }
+
+    }
+
+    .itens{
+        font-size: 45px;
+        cursor: pointer;
+    }
+}

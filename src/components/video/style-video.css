@@ -1,0 +1,26 @@
+.video{
+    width: 600px;
+    margin: 30px;
+    padding-top: 15px;
+    border-radius: 30px;
+    box-shadow: 6px 4px rgba(0, 0, 0, 0.44);
+}
+
+
+@media(max-width: 900px){
+    .video{
+        width: 95%;
+        height: 300px;
+        margin: auto;
+        margin-bottom: 1rem;
+        background-color: rgba(240, 248, 255, 0.637);
+    }
+}
+
+@media(max-width: 500px){
+    .video{
+        width: 90%;
+        height: 200px;
+        background-color: rgba(240, 248, 255, 0.5);
+    }
+}

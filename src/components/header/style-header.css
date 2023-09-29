@@ -1,0 +1,65 @@
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: linear-gradient(40deg,  rgb(37, 37, 37), rgb(0, 0, 0), rgb(37,37,37), #bc6561, rgb(37,37,37));
+}
+
+.logo{
+    width: 250px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.nav-top{
+    width: 1500px;
+    height: 80px;
+}
+
+ul{
+    width: 1100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+li{
+    list-style: none;
+    font-size: 30px;
+    color: aliceblue;
+    cursor: pointer;
+    transition: 1s;
+}
+
+li:hover{
+    color:  #964440;
+    transform: scale(1.1);
+}
+
+.btmenu{display: none;}
+
+/* _______________________Responsivo_________________________________________ */
+
+@media(max-width: 900px) {
+    header{
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .nav-top, ul, li{
+        display: none;
+    }
+
+    .btmenu{
+        display: flex;
+        cursor: pointer;
+        scale: 2;
+        position: absolute;
+        right: 30px;
+        background: transparent;
+        border:transparent;
+    }
+}

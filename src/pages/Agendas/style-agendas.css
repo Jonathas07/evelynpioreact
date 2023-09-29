@@ -1,0 +1,91 @@
+.main-agenda{
+    width: 100%;
+    height: auto;
+    background-image: url('../../assets/camará\ shopping4.png');
+    background-position: -10% 40%;
+    background-size: cover;
+    display: flex;
+}
+
+.fotoE{
+    width: 25%;
+}
+
+.fotoD{
+    width: 25%;
+}
+
+
+#agendamento{
+    background-color: rgba(0, 0, 0, 0.295);
+    background-position: 70% 40%;
+    width: 50%;
+    display: block;
+    padding: 2% 2% 2% 1.1%;
+}
+
+#nome, #fone, #evento, #local, #endereco{
+    margin: none;
+    margin-bottom: 10px;
+    width: 97%;
+    height: max-content;
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: 1% 2% 1% 2%;
+    background: transparent;
+}
+
+#horainicio, #horafinal{
+    width: 50%;
+    font-size: 1rem;
+    padding: 1% 2% 1% 2%;
+    border-radius: 25px;
+    background:transparent;
+}
+
+.txtagenda{
+    margin-top: 1%;
+    font-size: 1.5rem;
+    color: white;
+}
+
+#data{
+    width: 50%;
+    border-radius: 20px;
+    font-size: 1rem;
+    padding: 1% 2% 1% 2%;
+    background: transparent;
+}
+
+#um, #mais{
+    width: 5%;
+    height: 20px;
+}
+
+#mais{
+    margin-left: 10%;
+}
+
+textarea{
+    width: 98%;
+    height: 200px;
+    border-radius: 20px;
+    font-size: 1rem;
+    padding: 1% 2% 1% 2%;
+    background: transparent;
+}
+
+.btenviar{
+    margin-top: 5%;
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 1.5rem;
+    transition: 1s;
+}
+
+.btenviar:hover{
+    background-color: red;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.452) 2px 5px;
+}

@@ -1,0 +1,18 @@
+.main-videos{
+    background-color: black;
+}
+
+.center-videos{
+    width: 100%;
+    background-image: linear-gradient(90deg,   rgb(0, 0, 0), #8d5754, rgb(37,37,37), #bc6561, rgb(37,37,37));
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+iframe{
+    margin: 10px 20px 10px 5px;
+    width: 400px;
+    height: 180px;
+    border-radius: 10px;
+}
